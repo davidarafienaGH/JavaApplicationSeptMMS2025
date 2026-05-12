@@ -1,0 +1,14 @@
+// 2.3 Java Statements
+// a)
+int c, thisIsAVariable, q76354, number;
+// b)
+System.out.print("Enter an integer: ");
+// c)
+int value = input.nextInt();
+// d)
+System.out.println("This is a Java program");
+// e)
+System.out.printf("%s%n%s%n", "This is a Java", "program");
+// f)
+if (number != 7)
+    System.out.println("The variable number is not equal to 7");
