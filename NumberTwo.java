@@ -1,3 +1,5 @@
+// 2. write a java program to accept a number from a user and check if the number is an even number, if it is even, display True, else, display false.
+
 import java.util.Scanner;
 
 public class NumberTwo{

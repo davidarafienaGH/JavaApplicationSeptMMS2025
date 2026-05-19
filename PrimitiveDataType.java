@@ -24,5 +24,7 @@ public class PrimitiveDataType{
 		boolean isJavaFun = true;
 		System.out.printf("Do you love Java %b",isJavaFun);
 		
+		
+		
 	}
 }	

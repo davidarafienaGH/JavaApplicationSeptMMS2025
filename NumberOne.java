@@ -1,3 +1,5 @@
+// 1. collect 5 numbers from a user and display the sum, average, product of the five numbers.
+
 import java.util.Scanner;
 
 public class NumberOne{
