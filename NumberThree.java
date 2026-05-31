@@ -1,3 +1,5 @@
+// 3. write a java program to accept name, age and address and format the data to give a meaningful message on the screen
+
 import java.util.Scanner;
 
 public class NumberThree{
