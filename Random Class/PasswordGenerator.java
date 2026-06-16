@@ -4,10 +4,7 @@ public class PasswordGenerator{
     public static void main(String[] args) {
         Random random = new Random();
 
-        String chars = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
-                     + "abcdefghijklmnopqrstuvwxyz"
-                     + "0123456789"
-                     + "!@#$%^&*()-_=+[]{}<>?";
+        String chars = "ABCDEFGHIJKLMNOPQRSTUVWXYZ" + "abcdefghijklmnopqrstuvwxyz" + "0123456789" + "!@#$%^&*()-_=+[]{}<>?";
 
         String password = "";
 
