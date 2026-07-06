@@ -1,0 +1,13 @@
+// 6.26 Knight’s Tour: Closed-Tour Test
+boolean isClosedTour = false;
+for (int m = 0; m < 8; m++) {
+    int checkRow = finalRow + vertical[m];
+    int checkCol = finalCol + horizontal[m];
+    
+    // Check if any legal L-move brings us back to our starting square (1)
+    if (checkRow == startRow && checkCol == startCol) {
+        isClosedTour = true;
+        break;
+    }
+}
+System.out.println(isClosedTour ? "This is a Closed Tour!" : "This is an Open Tour.");
